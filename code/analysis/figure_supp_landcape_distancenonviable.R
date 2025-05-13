@@ -14,13 +14,12 @@ treatment_colors <- c("CON"= "#174A7E",
                       "ABSMAP" = "#D9D9D9"
 )
 
+###############################################################################################
+# Load files
 
 df_wheel_expe1 <- read_csv("data/experiment/df_wheel_experiment1.csv", col_names = TRUE)
 df_wheel_expe2 <- read_csv("data/experiment/df_wheel_experiment2.csv", col_names = TRUE)
 
-
-df_wheel_expe1 <- read_csv(file1, col_names = TRUE)
-df_wheel_expe2 <- read_csv(file2, col_names = TRUE)
 
 ##########################################
 ######Supplementary Figure 2

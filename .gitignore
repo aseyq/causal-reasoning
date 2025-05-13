@@ -1,4 +1,8 @@
-private/
+# files before publication
+private/ 
+
+# figures are generated
+figures/
 
 .DS_Store
 

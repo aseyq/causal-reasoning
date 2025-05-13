@@ -74,6 +74,7 @@ df %>%
   theme(legend.position = "top") +
   scale_linewidth(range = c(0.2, 1))+
   scale_size_identity()
+ggsave("figures/mechvsdigital_comparison_participants.png", width = 9, height = 7, dpi = 300)
 
 
 ## Supp Figure 4
@@ -120,4 +121,5 @@ speeds_comparison %>%
   theme(axis.title = element_text(size = 16),
         axis.text = element_text(size = 14))
   
-  ggsave("figures/speed_comparison.png", width = 9, height = 7, dpi = 300)
+  ggsave("figures/mechvsdigital_comparison_speed.png", width = 9, height = 7, dpi = 300)
+
